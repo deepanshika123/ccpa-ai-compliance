@@ -120,13 +120,13 @@ http://localhost:8000/docs
 
 ## API Endpoint
 ### 1. POST /analyze
-######Request
+Request
 {
   "prompt": "We sell customer data without consent"
 }
 
 
-######Response
+Response
 {
   "harmful": true,
   "articles": [
