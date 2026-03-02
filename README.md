@@ -20,7 +20,7 @@ Section Retrieval Engine
 ↓
 RAG Pipeline
 ↓
-LLM Analysis (Team Integration)
+LLM Analysis 
 ↓
 Structured JSON Response
 
@@ -51,6 +51,8 @@ Structured JSON Response
 ---
 
 ##  Project Structure
+
+```
 OpenHack/
 │
 ├── app/
@@ -69,6 +71,7 @@ OpenHack/
 ├── requirements.txt
 └── README.md
 
+```
 ---
 
 ## ⚙️ Local Setup
@@ -101,7 +104,7 @@ http://127.0.0.1:8000/docs
 
 ### 1. Format Validation
 python validate_format.py
-### . Stress Testing
+### 2. Stress Testing
 python stress_test.py
 
 ## Docker Setup
@@ -117,11 +120,13 @@ http://localhost:8000/docs
 
 ## API Endpoint
 ### 1. POST /analyze
-Request
+######Request
 {
   "prompt": "We sell customer data without consent"
 }
-Response
+
+
+######Response
 {
   "harmful": true,
   "articles": [
