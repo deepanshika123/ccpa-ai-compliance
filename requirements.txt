@@ -1,7 +1,9 @@
 fastapi
 uvicorn
-pdfplumber
-sentence-transformers
-faiss-cpu
-transformers
+pydantic
 torch
+transformers
+sentence-transformers
+bitsandbytes
+accelerate
+huggingface_hub
